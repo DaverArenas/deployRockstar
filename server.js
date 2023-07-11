@@ -5,13 +5,13 @@ var app = express();
 
 app.get('/', function(req, res) {
   res.send({
-    "Output": "Bienvenidos a rockstar Green!"
+    "Output": "Bienvenido a Rockstar Green"
   });
 });
 
 app.post('/', function(req, res) {
   res.send({
-    "Output": "Hello World!"
+    "Output": "Bienvenido a Rockstar Green"
   });
 });
 
